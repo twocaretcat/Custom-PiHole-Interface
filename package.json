@@ -8,14 +8,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/jerboa88/Custom-PiHole-Interface.git"
+		"url": "git+https://github.com/twocaretcat/Custom-PiHole-Interface.git"
 	},
-	"author": "jerboa88 <jerboa88@users.noreply.github.com> (https://jerboa88.github.io/)",
+	"author": "John Goodliff (https://johng.io)",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/jerboa88/Custom-PiHole-Interface/issues"
+		"url": "https://github.com/twocaretcat/Custom-PiHole-Interface/issues"
 	},
-	"homepage": "https://github.com/jerboa88/Custom-PiHole-Interface#readme",
+	"homepage": "https://github.com/twocaretcat/Custom-PiHole-Interface#readme",
 	"devDependencies": {
 		"clean-css": "^3.4.18",
 		"uglify-js": "^2.7.0"

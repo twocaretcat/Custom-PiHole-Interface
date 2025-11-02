@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="Content-Security-Policy" content="default-src 'self' https://api.github.com; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'">
@@ -33,132 +34,133 @@
 	<script src="js/other/respond.min.js"></script>
 	<![endif]-->
 </head>
+
 <body class="skin-purple sidebar-mini">
-<!-- JS Warning -->
-<div>
-	<input type="checkbox" id="js-hide">
-	<div class="js-warn" id="js-warn-exit">
-		<h1>Javascript Is Disabled</h1>
-		<p>Javascript seems to be disabled. This will break some site features.</p>
-		<p>To enable Javascript click <a href="http://www.enable-javascript.com/" target="_blank">here</a></p>
-		<label for="js-hide">Close</label>
+	<!-- JS Warning -->
+	<div>
+		<input type="checkbox" id="js-hide">
+		<div class="js-warn" id="js-warn-exit">
+			<h1>Javascript Is Disabled</h1>
+			<p>Javascript seems to be disabled. This will break some site features.</p>
+			<p>To enable Javascript click <a href="http://www.enable-javascript.com/" target="_blank">here</a></p>
+			<label for="js-hide">Close</label>
+		</div>
 	</div>
-</div>
-<!-- /JS Warning -->
-<script src="js/pihole/header.js"></script>
-<div class="wrapper">
-	<header class="main-header">
-		<!-- Logo -->
-		<a href="#" class="logo" data-toggle="offcanvas">
-			<span class="logo-mini">Pi</span> <!-- mini logo for sidebar mini 50x50 pixels -->
-			<span class="logo-lg">Pi-hole Interface</span> <!-- logo for regular state and mobile devices -->
-		</a>
-		<nav class="navbar navbar-static-top" role="navigation">
-			<!-- Sidebar toggle button-->
-			<a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button"> <!-- Turn this into reload button -->
-				<span class="sr-only">Toggle navigation</span>
+	<!-- /JS Warning -->
+	<script src="js/pihole/header.js"></script>
+	<div class="wrapper">
+		<header class="main-header">
+			<!-- Logo -->
+			<a href="#" class="logo" data-toggle="offcanvas">
+				<span class="logo-mini">Pi</span> <!-- mini logo for sidebar mini 50x50 pixels -->
+				<span class="logo-lg">Pi-hole Interface</span> <!-- logo for regular state and mobile devices -->
 			</a>
-			<div class="navbar-custom-menu">
-				<ul class="nav navbar-nav">
-					<li id="dropdown-menu" class="dropdown user user-menu">
-						<a href="#" class="dropdown-toggle" >
-							<i class="fa fa-ellipsis-v"></i>
-						</a>
-						<ul class="dropdown-menu">
-							<!-- User image -->
-							<li class="user-header">
-								<img src="./img/icon.svg" alt="User Image">
-								<p>
-									Open Source Ad Blocker
-									<small>Designed For Raspberry Pi</small>
-								</p>
-							</li>
-							<!-- Menu Body -->
-							<li class="user-body">
-								<div class="col-xs-4 text-center">
-									<a href="https://github.com/jacobsalmela/pi-hole">Github</a>
-								</div>
-								<div class="col-xs-4 text-center">
-									<a href="http://jacobsalmela.com/block-millions-ads-network-wide-with-a-raspberry-pi-hole-2-0/">Details</a>
-								</div>
-								<div class="col-xs-4 text-center">
-									<a href="https://github.com/pi-hole/pi-hole/releases">Updates</a>
-								</div>
-							</li>
-							<!-- Menu Footer -->
-							<li class="user-footer">
-								<!-- Update alerts -->
-								<a class="alert-link" href="https://github.com/pi-hole/pi-hole/releases">
-									<div id="alPiholeUpdate" class="alert alert-info alert-dismissible fade in" role="alert" hidden>
-										There's an update available for this Pi-hole!
+			<nav class="navbar navbar-static-top" role="navigation">
+				<!-- Sidebar toggle button-->
+				<a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button"> <!-- Turn this into reload button -->
+					<span class="sr-only">Toggle navigation</span>
+				</a>
+				<div class="navbar-custom-menu">
+					<ul class="nav navbar-nav">
+						<li id="dropdown-menu" class="dropdown user user-menu">
+							<a href="#" class="dropdown-toggle">
+								<i class="fa fa-ellipsis-v"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<!-- User image -->
+								<li class="user-header">
+									<img src="./img/icon.svg" alt="User Image">
+									<p>
+										Open Source Ad Blocker
+										<small>Designed For Raspberry Pi</small>
+									</p>
+								</li>
+								<!-- Menu Body -->
+								<li class="user-body">
+									<div class="col-xs-4 text-center">
+										<a href="https://github.com/jacobsalmela/pi-hole">Github</a>
 									</div>
-								</a>
-								<a class="alert-link" href="https://github.com/jerboa88/Custom-PiHole-Interface/releases">
-									<div id="alWebUpdate" class="alert alert-info alert-dismissible fade in" role="alert" hidden>
-										There's an update available for this Web Interface!
+									<div class="col-xs-4 text-center">
+										<a href="http://jacobsalmela.com/block-millions-ads-network-wide-with-a-raspberry-pi-hole-2-0/">Details</a>
 									</div>
-								</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</header>
-	<!-- Left side column. contains the logo and sidebar -->
-	<aside class="main-sidebar">
-		<!-- sidebar: style can be found in sidebar.less -->
-		<section class="sidebar">
-			<!-- Sidebar user panel -->
-			<div class="user-panel">
-				<div class="pull-left image">
-					<img src="img/icon.svg" class="img-circle" alt="Pi-hole logo">
+									<div class="col-xs-4 text-center">
+										<a href="https://github.com/pi-hole/pi-hole/releases">Updates</a>
+									</div>
+								</li>
+								<!-- Menu Footer -->
+								<li class="user-footer">
+									<!-- Update alerts -->
+									<a class="alert-link" href="https://github.com/pi-hole/pi-hole/releases">
+										<div id="alPiholeUpdate" class="alert alert-info alert-dismissible fade in" role="alert" hidden>
+											There's an update available for this Pi-hole!
+										</div>
+									</a>
+									<a class="alert-link" href="https://github.com/twocaretcat/Custom-PiHole-Interface/releases">
+										<div id="alWebUpdate" class="alert alert-info alert-dismissible fade in" role="alert" hidden>
+											There's an update available for this Web Interface!
+										</div>
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
 				</div>
-				<div class="pull-left info">
-					<p>Status</p>
-					<?php
+			</nav>
+		</header>
+		<!-- Left side column. contains the logo and sidebar -->
+		<aside class="main-sidebar">
+			<!-- sidebar: style can be found in sidebar.less -->
+			<section class="sidebar">
+				<!-- Sidebar user panel -->
+				<div class="user-panel">
+					<div class="pull-left image">
+						<img src="img/icon.svg" class="img-circle" alt="Pi-hole logo">
+					</div>
+					<div class="pull-left info">
+						<p>Status</p>
+						<?php
 						$pistatus = exec('pgrep dnsmasq | wc -l');
 						if ($pistatus > "0") {echo '<a href="#"><i class="fa fa-circle" style="color: #00a65a"></i> Active</a>';}
 						else {echo '<a href="#"><i class="fa fa-circle" style="color: #dd4b39"></i> Offline</a>';}
 					?>
+					</div>
 				</div>
-			</div>
-			<!-- sidebar menu: : style can be found in sidebar.less -->
-			<ul class="sidebar-menu">
-				<li class="header">MAIN NAVIGATION</li>
+				<!-- sidebar menu: : style can be found in sidebar.less -->
+				<ul class="sidebar-menu">
+					<li class="header">MAIN NAVIGATION</li>
 
-				<!-- Home Page -->
-				<li>
-					<a href="index.php">
-						<i class="fa fa-home"></i> <span>Main Page</span>
-					</a>
-				</li>
+					<!-- Home Page -->
+					<li>
+						<a href="index.php">
+							<i class="fa fa-home"></i> <span>Main Page</span>
+						</a>
+					</li>
 
-				<!-- Query Log -->
-				<li>
-					<a href="queries.php">
-						<i class="fa fa-file-text-o"></i> <span>Query Log</span>
-					</a>
-				</li>
+					<!-- Query Log -->
+					<li>
+						<a href="queries.php">
+							<i class="fa fa-file-text-o"></i> <span>Query Log</span>
+						</a>
+					</li>
 
-				<!-- Whitelist -->
-				<li>
-					<a href="list.php?l=white">
-						<i class="fa fa-pencil-square-o"></i> <span>Whitelist</span>
-					</a>
-				</li>
+					<!-- Whitelist -->
+					<li>
+						<a href="list.php?l=white">
+							<i class="fa fa-pencil-square-o"></i> <span>Whitelist</span>
+						</a>
+					</li>
 
-				<!-- Blacklist -->
-				<li>
-					<a href="list.php?l=black">
-						<i class="fa fa-ban"></i> <span>Blacklist</span>
-					</a>
-				</li>
-			</ul>
-		</section>
-		<!-- /.sidebar -->
-	</aside>
-	<!-- Content Wrapper. Contains page content -->
-	<div class="content-wrapper">
-		<!-- Main content -->
-		<section class="content">
+					<!-- Blacklist -->
+					<li>
+						<a href="list.php?l=black">
+							<i class="fa fa-ban"></i> <span>Blacklist</span>
+						</a>
+					</li>
+				</ul>
+			</section>
+			<!-- /.sidebar -->
+		</aside>
+		<!-- Content Wrapper. Contains page content -->
+		<div class="content-wrapper">
+			<!-- Main content -->
+			<section class="content">

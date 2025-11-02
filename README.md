@@ -9,17 +9,17 @@
       <img src="https://unmaintained.tech/badge.svg" alt="No Maintenance Intended" title="No Maintenance Intended"/>
     </a>
     <img src="https://johng.io/badges/category/App.svg" alt="Project category" title="Project category"/>
-    <img src="https://img.shields.io/github/languages/top/jerboa88/Custom-PiHole-Interface.svg" alt="Language" title="Language"/>
-    <img src="https://img.shields.io/github/repo-size/jerboa88/Custom-PiHole-Interface.svg" alt="Repository size" title="Repository size"/>
+    <img src="https://img.shields.io/github/languages/top/twocaretcat/Custom-PiHole-Interface.svg" alt="Language" title="Language"/>
+    <img src="https://img.shields.io/github/repo-size/twocaretcat/Custom-PiHole-Interface.svg" alt="Repository size" title="Repository size"/>
     <a href="LICENSE">
-      <img src="https://img.shields.io/github/license/jerboa88/Custom-PiHole-Interface.svg" alt="Project license" title="Project license"/>
+      <img src="https://img.shields.io/github/license/twocaretcat/Custom-PiHole-Interface.svg" alt="Project license" title="Project license"/>
     </a>
   </p>
-  
+
   <p class="projectDesc">
     A custom web interface for Pi-hole, a DNS-based ad filter
   </p>
-  
+
   <br/>
 </div>
 
@@ -38,7 +38,7 @@ This project will create a Web interface for the ad-blocking [Pi-hole](https://g
 Use the following commands to manually install this web interface:
 1. Change to the web server directory: `cd /var/www/html`
 2. (If updating) Remove the previous version of the web interface: `sudo rm -r admin/`
-3. Clone the repository into a new `admin` folder: `git clone --depth 1 https://github.com/jerboa88/Custom-PiHole-Interface.git admin`
+3. Clone the repository into a new `admin` folder: `git clone --depth 1 https://github.com/twocaretcat/Custom-PiHole-Interface.git admin`
 4. (Optional) Remove unused files: `sudo rm -r admin/.git/ admin/.github/`
 5. Profit!
 
