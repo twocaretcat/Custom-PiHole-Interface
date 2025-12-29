@@ -1,12 +1,34 @@
 {
-  "$schema": "https://johng.io/schema/project-metadata.json",
-  "name": "Custom Pi-hole Interface",
+	"$schema": "https://johng.io/schema/project-metadata.json",
+	"name": "Custom Pi-hole Interface",
+	"background": "Customized and maintained a self-hosted Pi-hole dashboard fork with a refreshed AdminLTE interface and leaner frontend assets. Preserved the inherited PHP and JavaScript tools for DNS statistics, query history, and list management while improving the UI/UX around the core network-monitoring workflows.",
 	"logoPath": "img/icon.svg",
+	"technologies": [
+		"AdminLTE",
+		"Bootstrap",
+		"Chart.js",
+		"DataTables",
+		"jQuery",
+		"Pi-hole"
+	],
+	"tools": [
+		"Git",
+		"GitHub",
+		"Linux"
+	],
+	"topics": [
+		"Frontend Architecture",
+		"Responsive Design",
+		"UI/UX",
+		"Web Design",
+		"Web Performance",
+		"OSS"
+	],
 	"category": "App",
 	"subcategory": "Web",
-  "schema": {
-    "type": "Software",
-    "applicationCategory": "Developer",
-    "operatingSystem": "Linux"
-  }
+	"schema": {
+		"type": "Software",
+		"applicationCategory": "Developer",
+		"operatingSystem": "Linux"
+	}
 }
